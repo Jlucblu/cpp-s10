@@ -54,15 +54,16 @@ public:
     Witch(Witch&&) = default;
 
     Witch(const Witch& other) {
-        make_unique<Witch>(other.name_);
-        make_unique<Cat>(*other.cat_);
+        name_ = other.name_;
+        cat_ = make_unique<Cat>(*other.cat_);
     }
 
     Witch& operator=(Witch&&) = default;
 
     Witch& operator=(Witch& other) noexcept {
-        std::swap(name_, other.name_);
-        std::swap(cat_, other.cat_);
+        Witch w = other;
+        std::swap(name_, w.name_);
+        std::swap(cat_, w.cat_);
         return *this;
     }
 

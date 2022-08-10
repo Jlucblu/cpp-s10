@@ -1,4 +1,2 @@
 ﻿  cats_and_witches.cpp
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\cats_and_witches.cpp(57,27): warning C4834: отмена возвращаемого значения функции с атрибутом "nodiscard"
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\cats_and_witches.cpp(58,25): warning C4834: отмена возвращаемого значения функции с атрибутом "nodiscard"
   cpp-s10.vcxproj -> C:\Users\Jlucblu\Desktop\C++\cpp-s10\x64\Debug\cpp-s10.exe
