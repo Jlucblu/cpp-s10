@@ -1,42 +1,4 @@
 ﻿  main.cpp
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(32,13): error C2011: Shape: переопределение типа "class"
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes.h(9): message : см. объявление "Shape"
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(58,32): error C2504: Shape: не определен базовый класс
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(66,20): error C3668: Rectangle::GetArea: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(70,25): error C3668: Rectangle::GetType: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(74,19): error C3668: Rectangle::GetColor: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(86,18): error C3668: Rectangle::SetColor: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(61,11): error C2614: Rectangle: недопустимая инициализация члена: "Shape" не является базовым классом или членом
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(75,23): error C2027: использование неопределенного типа "Shape"
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes.h(9): message : см. объявление "Shape"
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(79,16): warning C4244: return: преобразование "const double" в "int", возможна потеря данных
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(83,16): warning C4244: return: преобразование "const double" в "int", возможна потеря данных
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(87,16): error C2027: использование неопределенного типа "Shape"
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes.h(9): message : см. объявление "Shape"
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(100,29): error C2504: Shape: не определен базовый класс
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(107,20): error C3668: Circle::GetArea: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(111,25): error C3668: Circle::GetType: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(115,19): error C3668: Circle::GetColor: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(119,18): error C3668: Circle::SetColor: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(103,11): error C2614: Circle: недопустимая инициализация члена: "Shape" не является базовым классом или членом
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(108,36): error C2065: M_PI: необъявленный идентификатор
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(116,23): error C2027: использование неопределенного типа "Shape"
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes.h(9): message : см. объявление "Shape"
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(120,16): error C2027: использование неопределенного типа "Shape"
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes.h(9): message : см. объявление "Shape"
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(146,18): error C2027: использование неопределенного типа "Shape"
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes.h(9): message : см. объявление "Shape"
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(146,53): error C2027: использование неопределенного типа "Shape"
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes.h(9): message : см. объявление "Shape"
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(146,87): error C2027: использование неопределенного типа "Shape"
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes.h(9): message : см. объявление "Shape"
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(152,11): error C2079: "sh" использует не имеющую определения структуру class "Shape"
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(152,28): error C2440: инициализация: невозможно преобразовать "Color" в "int"
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(152,28): message : Причина: невозможно преобразовать "Color" в "int"
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(152,22): message : Для этого преобразования требуется явное приведение (static_cast, приведение в стиле С или приведение в стиле функции в круглых скобках)
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(154,43): error C2440: инициализация: невозможно преобразовать "Circle *" в "const Shape *"
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(154,31): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(154,43): error C2440: инициализация: невозможно преобразовать "Rectangle *" в "const Shape *"
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(154,35): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(154,43): error C2440: инициализация: невозможно преобразовать "int *" в "const Shape *"
-C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(154,39): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(82,20): warning C4244: return: преобразование "const double" в "int", возможна потеря данных
+C:\Users\Jlucblu\Desktop\C++\cpp-s10\cpp-s10\shapes_2.h(86,20): warning C4244: return: преобразование "const double" в "int", возможна потеря данных
+  cpp-s10.vcxproj -> C:\Users\Jlucblu\Desktop\C++\cpp-s10\x64\Debug\cpp-s10.exe

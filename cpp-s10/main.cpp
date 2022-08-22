@@ -1,9 +1,9 @@
-﻿//#include "cats_and_witches.h"
-//#include "tree.h"
+﻿#include "cats_and_witches.h"
+#include "tree.h"
 #include "canvas.h"
-//#include "shapes.h"
-//#include "cache.h"
-//#include "builders.h"
+#include "shapes.h"
+#include "cache.h"
+#include "builders.h"
 #include "people.h"
 #include "shapes_2.h"
 
@@ -40,6 +40,7 @@ std::unique_ptr<Texture> MakeTextureCheckers(Size size, char pixel1, char pixel2
 }
 
 void TestCpp() {
+    using namespace Shape;
     Canvas canvas(Size{ 77, 17 });
 
     // Буква "C" как разность двух эллипсов, один из которых нарисован цветом фона
@@ -85,6 +86,7 @@ void TestCpp() {
 }
 
 void TestCow() {
+    using namespace Shape;
     Canvas canvas{ {18, 5} };
 
     canvas.AddShape(ShapeType::RECTANGLE, { 1, 0 }, { 16, 5 }, MakeTextureCow());
@@ -126,13 +128,13 @@ void TestPerson() {
 }
 
 int main() {
-	//TestCats();
-	//TestTree();
-    //TestCow();
-    //TestCpp();
-    //TestCache1();
-    //TestCache2();
-    //TestBuilders();
-    //TestPerson();
-    TestShapes();
+	TestCats();
+	TestTree();
+    TestCow();
+    TestCpp();
+    TestCache1();
+    TestCache2();
+    TestBuilders();
+    TestPerson();
+    //TestShapes();
 }
