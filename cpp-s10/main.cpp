@@ -1,10 +1,14 @@
-﻿#include "cats_and_witches.h"
-#include "tree.h"
+﻿//#include "cats_and_witches.h"
+//#include "tree.h"
 #include "canvas.h"
-#include "shapes.h"
-#include "cache.h"
+//#include "shapes.h"
+//#include "cache.h"
+//#include "builders.h"
+#include "people.h"
+#include "shapes_2.h"
 
 #include <cassert>
+#include <iostream>
 #include <sstream>
 
 std::unique_ptr<Texture> MakeTextureCow() {
@@ -102,11 +106,33 @@ void TestCow() {
 
     assert(answer == output.str());
 }
+
+void TestPerson() {
+    using namespace std;
+
+    try {
+        Programmer programmer{ "Bjarne Stroustrup"s, 69, Gender::MALE };
+        programmer.AddProgrammingLanguage(ProgrammingLanguage::CPP);
+        assert(programmer.CanProgram(ProgrammingLanguage::CPP));
+
+        Worker worker{ "Mario"s, 42, Gender::MALE };
+        worker.AddSpeciality(WorkerSpeciality::PLUMBER);
+        assert(worker.HasSpeciality(WorkerSpeciality::PLUMBER));
+    }
+    catch (...) {
+        cout << "Exception was thrown"s << endl;
+    }
+    cout << "OK"s << endl;
+}
+
 int main() {
-	TestCats();
-	TestTree();
-    TestCow();
-    TestCpp();
-    TestCache1();
-    TestCache2();
+	//TestCats();
+	//TestTree();
+    //TestCow();
+    //TestCpp();
+    //TestCache1();
+    //TestCache2();
+    //TestBuilders();
+    //TestPerson();
+    TestShapes();
 }
